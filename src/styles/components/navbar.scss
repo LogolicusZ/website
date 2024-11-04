@@ -1,0 +1,24 @@
+#navbar {
+  &.scrolled {
+    @apply shadow-md backdrop-blur-sm backdrop-opacity-30;
+
+    a.logo-link {
+      .hello {
+        @apply -translate-y-full;
+      }
+
+      .logo {
+        @apply -translate-y-full;
+      }
+    }
+  }
+}
+
+#navbar {
+  @apply transition-shadow duration-[500ms] ease-in-out;
+}
+
+.logo,
+.hello {
+  @apply transition-transform duration-[500ms] ease-in-out;
+}

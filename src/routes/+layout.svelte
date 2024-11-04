@@ -1,6 +1,14 @@
 <script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+  import "../styles/app.scss";
+  import Navbar from "$lib/components/Navbar.svelte";
+  let { children } = $props();
 </script>
 
-{@render children()}
+<svelte:head>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap" rel="stylesheet" />
+</svelte:head>
+
+<Navbar />
+<div class="p-8 pt-[6.375rem]">
+  {@render children()}
+</div>

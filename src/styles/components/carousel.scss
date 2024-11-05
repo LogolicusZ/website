@@ -1,0 +1,66 @@
+/* Wrapper for Splide elements */
+.splide-wrapper {
+  @apply relative;
+}
+
+/* Arrow styling */
+.splide__arrows {
+  @apply absolute bottom-0 top-0 z-10 flex items-center text-neutral-content;
+}
+
+.splide__arrows--left {
+  @apply left-0;
+}
+
+.splide__arrows--right {
+  @apply right-0;
+}
+
+.splide__arrow {
+  @apply btn btn-square relative border-none bg-base-content text-base-200 transition-all hover:bg-base-content hover:brightness-75;
+}
+
+/* Slide styling */
+.splide__slide {
+  @apply h-[40rem] w-[11rem] overflow-hidden rounded-md;
+}
+
+.splide-link {
+  @apply h-full w-full scale-90 transform overflow-hidden transition-transform duration-[250ms] ease-in-out;
+
+  a {
+    @apply inline-block h-full w-full cursor-zoom-in;
+  }
+
+  img {
+    @apply block !h-full !w-full origin-center rounded-none border-none object-cover transition-all duration-[250ms] ease-in-out;
+
+    &:hover {
+      @apply scale-110 brightness-50;
+    }
+  }
+
+  @media (max-width: 650px) {
+    img {
+      @apply h-[27em] w-[22em];
+    }
+  }
+}
+
+/* Active Slide */
+.splide__slide.is-active .splide-link {
+  @apply scale-100;
+}
+
+/* Pagination styles */
+.splide__pagination {
+  @apply bottom-4 h-10 p-2;
+}
+
+.splide__pagination__page {
+  @apply mx-1 flex h-[0.2rem] w-[0.2rem] cursor-pointer items-center rounded-full bg-base-content p-0 transition-all duration-[250ms] ease-in-out;
+
+  &.is-active {
+    @apply h-[0.75rem] w-[0.75rem] border-[0.2rem] border-solid border-base-content bg-base-300;
+  }
+}

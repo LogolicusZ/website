@@ -2,10 +2,13 @@
 @import url("tailwindcss/components");
 @import url("tailwindcss/utilities");
 
+// font family
 body {
   font-family: "Satoshi", sans-serif;
 }
 
-img {
+// image borders
+img,
+.splide-link {
   @apply rounded-md border-[3px] border-solid border-base-content;
 }

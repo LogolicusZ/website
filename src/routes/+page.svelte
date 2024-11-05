@@ -1,6 +1,56 @@
+<!-- TODO: CREATE NAMES FOR IMAGES --->
 <script lang="ts">
-  import IconArrowDown from "svelte-material-icons/ArrowDown.svelte";
+  import type { CarouselOptions, CarouselItems } from "$lib/types";
+  import Carousel from "$components/Carousel.svelte";
   import "$styles/index.scss";
+
+  import IconArrowDown from "svelte-material-icons/ArrowDown.svelte";
+  import IconArrowRight from "svelte-material-icons/ArrowRight.svelte";
+
+  // carousel gallery items
+  const slides: CarouselItems[] = [
+    {
+      title: "<INSERT NAME>",
+      image: "/assets/img/gallery/pic05.avif",
+    },
+    {
+      title: "<INSERT NAME>",
+      image: "/assets/img/gallery/pic07.avif",
+    },
+    {
+      title: "<INSERT NAME>",
+      image: "/assets/img/gallery/pic25.avif",
+    },
+    {
+      title: "<INSERT NAME>",
+      image: "/assets/img/gallery/pic03.avif",
+    },
+    {
+      title: "<INSERT NAME>",
+      image: "/assets/img/gallery/pic10.avif",
+    },
+  ];
+
+  // carousel gallery options
+  const slideOptions: CarouselOptions = {
+    type: "loop",
+    focus: "center",
+    perPage: 3,
+    autoplay: true,
+    autoplayInterval: 3000,
+    gap: "1rem",
+    width: "100rem",
+    padding: "2%",
+    updateOnMove: true,
+    breakpoints: {
+      1024: {
+        perPage: 2,
+      },
+      768: {
+        perPage: 1,
+      },
+    },
+  };
 </script>
 
 <div class="flex h-full flex-col gap-32">
@@ -14,6 +64,12 @@
       </span>
       <IconArrowDown size="2.5rem" />
     </h1>
+  </div>
+
+  <div class="flex h-[88dvh] flex-col items-center justify-center gap-8">
+    <h2 class="mb-8 text-8xl font-semibold">Pictures</h2>
+    <Carousel options={slideOptions} {slides} />
+    <a class="btn btn-primary btn-lg" href="/gallery"><IconArrowRight size="1.25rem" /> See more</a>
   </div>
 
   <div id="about" class="flex h-[88dvh] flex-col items-center justify-center gap-16">

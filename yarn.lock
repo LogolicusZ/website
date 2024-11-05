@@ -1962,6 +1962,11 @@ svelte-eslint-parser@^0.43.0:
     postcss "^8.4.39"
     postcss-scss "^4.0.9"
 
+svelte-material-icons@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/svelte-material-icons/-/svelte-material-icons-3.0.5.tgz#37bed05ceadd981b0da8630bd43b6d7cd6345376"
+  integrity sha512-UbhAa+Btd5y6e6DMljVccP+cbJ8lvesltMippiCOvfIUtYe2TsQqM+P6osfrVsZHV47b1tY6AmqCuSpMKnwMOQ==
+
 svelte@^5.0.0:
   version "5.1.9"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.1.9.tgz#e8d5f2e4b4e029091c1e3a5a0882ff75d40ba291"

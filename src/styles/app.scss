@@ -5,3 +5,7 @@
 body {
   font-family: "Satoshi", sans-serif;
 }
+
+img {
+  @apply rounded-md border-[3px] border-solid border-base-content;
+}

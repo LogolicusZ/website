@@ -9,7 +9,9 @@
     window.addEventListener("scroll", function () {
       const navbar = document.getElementById("navbar");
       if (navbar) {
-        if (window.scrollY > 0) {
+        const scrollDistanceRem = window.scrollY / parseFloat(getComputedStyle(document.documentElement).fontSize);
+        if (scrollDistanceRem > 0) {
+          // adjust this value to your desired rem threshold
           navbar.classList.add("scrolled");
         } else {
           navbar.classList.remove("scrolled");
@@ -19,7 +21,7 @@
   });
 </script>
 
-<div id="navbar" class="bg-base-100 fixed flex w-full flex-row items-center px-8 py-4">
+<div id="navbar" class="fixed flex w-full flex-row items-center bg-base-100 px-8 py-4">
   <a class="logo-link h-[70px] w-[100px] overflow-hidden" aria-label="Home" href="/">
     <div class="hello">
       <HelloText />
@@ -30,7 +32,7 @@
   </a>
   <ul class="ml-auto flex list-none content-center gap-4 text-xl">
     <li>
-      <a class="hover:link hover:link-primary" href="/#section-3">About</a>
+      <a class="hover:link hover:link-primary" href="/#about">About</a>
     </li>
     <li>
       <a class="hover:link hover:link-primary" href="/gallery">Gallery</a>

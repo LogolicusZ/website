@@ -1,3 +1,4 @@
+// font weight for header, upon scroll make lighter
 *:has(#navbar.scrolled) {
   #logolicuszHeader {
     @apply font-light -tracking-[7px];

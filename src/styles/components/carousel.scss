@@ -17,7 +17,7 @@
 }
 
 .splide__arrow {
-  @apply btn btn-square relative border-none bg-base-content text-base-200 transition-all hover:bg-base-content hover:brightness-75;
+  @apply btn btn-square relative border-none bg-base-content text-base-200 transition-all duration-200 hover:bg-base-content hover:brightness-75;
 }
 
 /* Slide styling */

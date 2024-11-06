@@ -21,7 +21,7 @@
   });
 </script>
 
-<div id="navbar" class="fixed z-50 flex w-full flex-row items-center bg-base-100 px-8 py-4">
+<div id="navbar" class="fixed z-50 flex w-full flex-row items-center bg-base-100 bg-opacity-30 backdrop-blur bp px-8 py-4 ">
   <a class="logo-link h-[70px] w-[100px] overflow-hidden" aria-label="Home" href="/">
     <div class="hello">
       <HelloText />

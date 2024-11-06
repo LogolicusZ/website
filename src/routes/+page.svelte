@@ -10,23 +10,23 @@
   // carousel gallery items
   const slides: CarouselItems[] = [
     {
-      title: "<INSERT NAME>",
+      title: "<bird-flowers>",
       image: "/assets/img/gallery/pic05.avif",
     },
     {
-      title: "<INSERT NAME>",
+      title: "<orange-stairs>",
       image: "/assets/img/gallery/pic07.avif",
     },
     {
-      title: "<INSERT NAME>",
+      title: "<noodle.zip-magazine1>",
       image: "/assets/img/gallery/pic25.avif",
     },
     {
-      title: "<INSERT NAME>",
+      title: "<windows-basketball1>",
       image: "/assets/img/gallery/pic03.avif",
     },
     {
-      title: "<INSERT NAME>",
+      title: "<car-peak>",
       image: "/assets/img/gallery/pic10.avif",
     },
   ];

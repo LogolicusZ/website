@@ -1,7 +1,6 @@
 #navbar {
   &.scrolled {
-    
-
+    @apply shadow-md;
     a.logo-link {
       .hello {
         @apply -translate-y-full;
@@ -13,11 +12,6 @@
     }
   }
 }
-
-// #navbar {
-//   @apply shadow-md !backdrop-blur-3xl backdrop-opacity-30 backdrop-invert;
-// }
-
 
 #navbar {
   @apply transition-shadow duration-[500ms] ease-in-out;

@@ -1,22 +1,31 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import Discord from "$assets/Discord.svelte";
-  import Instagram from "$assets/Instagram.svelte";
-  import Github from "$assets/Github.svelte";
+  import IconDiscord from "$assets/Discord.svelte";
+  import IconInstagram from "$assets/Instagram.svelte";
+  import IconGithub from "$assets/Github.svelte";
+  import IconArrowUp from "svelte-material-icons/ArrowUp.svelte";
   import "$styles/components/footer.scss";
 </script>
 
-<div class="z-50 mt-auto flex w-full bg-base-300">
-  <span class="text-2xl">&copy; LogolicusZ 2024</span>
+<div class="z-50 mt-auto flex w-full items-center rounded-t-xl px-8 py-3">
+  <span class="text-xl">&copy; LogolicusZ 2024</span>
   <div class="links ml-auto flex gap-2">
-    <a class="discord" href="https://discord.com/invite/DC6RCWmgNd">
-      <Discord />
+    <a
+      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+      href="https://discord.com/invite/DC6RCWmgNd">
+      <IconDiscord />
     </a>
-    <a class="instagram" href="https://instagram.com/logolicusz">
-      <Instagram />
+    <a
+      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+      href="https://instagram.com/logolicusz">
+      <IconInstagram />
     </a>
-    <a class="github" href="https://github.com/LogolicusZ">
-      <Github />
+    <a
+      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+      href="https://github.com/LogolicusZ">
+      <IconGithub />
+    </a>
+    <a class="btn btn-square btn-primary btn-md" href="#top">
+      <IconArrowUp size="1.5rem" />
     </a>
   </div>
 </div>

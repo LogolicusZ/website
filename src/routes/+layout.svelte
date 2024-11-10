@@ -1,6 +1,7 @@
 <script lang="ts">
   import "../styles/app.scss";
   import Navbar from "$lib/components/Navbar.svelte";
+  import Footer from "$lib/components/Footer.svelte";
   let { children } = $props();
 </script>
 
@@ -12,3 +13,4 @@
 <div class="p-8 pt-[6.375rem]">
   {@render children()}
 </div>
+<Footer />

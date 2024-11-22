@@ -21,7 +21,7 @@
   });
 </script>
 
-<div id="navbar" class="fixed z-50 flex w-full flex-row items-center bg-base-100/60 backdrop-blur-md px-8 py-4">
+<div id="navbar" class="fixed z-50 flex w-full flex-row items-center bg-base-100/60 px-8 py-4 backdrop-blur-md">
   <a class="logo-link h-[70px] w-[100px] overflow-hidden" aria-label="Home" href="/">
     <div class="hello">
       <HelloText />
@@ -36,6 +36,9 @@
     </li>
     <li>
       <a class="hover:link hover:link-primary" href="/gallery">Gallery</a>
+    </li>
+    <li>
+      <a class="hover:link hover:link-primary" href="/works">Works</a>
     </li>
     <li>
       <a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Blog</a>

@@ -1,13 +1,12 @@
+<script context="module">
+  import imageAltsData from "$lib/json/gallery.json";
+</script>
+
 <script lang="ts">
   import "$styles/gallery/index.scss";
 
   const images = import.meta.glob("/static/assets/img/gallery/*");
-  const imageAlts: ImageAlts = {
-    "pic01.avif": "A beautiful sunset",
-    "pic02.avif": "Mountain landscape",
-    "pic03.avif": "City skyline at night",
-    "pic28.avif": "Picture 28",
-  };
+  const imageAlts: ImageAlts = imageAltsData;
   const getAltText = (filename: string | undefined) => {
     if (!filename) return "No alt text set.";
     return imageAlts[filename] || `Image ${filename}`;
@@ -17,6 +16,10 @@
     [key: string]: string;
   }
 </script>
+
+<svelte:head>
+  <title>Gallery | LogolicusZ's Space</title>
+</svelte:head>
 
 <div class="flex flex-col items-center gap-16">
   <h1 class="text-8xl font-semibold">Gallery</h1>

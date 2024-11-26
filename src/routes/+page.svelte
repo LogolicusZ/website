@@ -53,6 +53,10 @@
   };
 </script>
 
+<svelte:head>
+  <title>LogolicusZ's Space</title>
+</svelte:head>
+
 <div class="mb-32 flex h-dvh items-center justify-center">
   <h1 class="flex flex-col items-center gap-2">
     <span class="text-4xl">Hi there, I'm</span>

@@ -7,6 +7,12 @@
 
   img {
     display: block;
+    cursor: zoom-in;
     margin-bottom: 1rem;
+    @apply transition-transform;
+
+    &:hover {
+      transform: scale(1.025);
+    }
   }
 }

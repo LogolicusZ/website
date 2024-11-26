@@ -23,7 +23,9 @@
   <div class="image-container">
     {#each Object.entries(images) as [path]}
       {@const filename = path.split("/").pop()}
-      <img src={path.replace("/static", "")} alt={getAltText(filename)} />
+      <a href={path.replace("/static", "")}>
+        <img src={path.replace("/static", "")} alt={getAltText(filename)} />
+      </a>
     {/each}
   </div>
 </div>

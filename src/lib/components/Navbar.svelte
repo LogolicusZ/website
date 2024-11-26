@@ -38,9 +38,6 @@
       <a class="hover:link hover:link-primary" href="/gallery">Gallery</a>
     </li>
     <li>
-      <a class="hover:link hover:link-primary" href="/works">Works</a>
-    </li>
-    <li>
       <a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Blog</a>
     </li>
   </ul>

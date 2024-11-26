@@ -1,0 +1,12 @@
+.image-container {
+  --columns: 4;
+
+  width: min(calc(var(--columns) * 18rem + var(--columns) rem), 90%);
+  columns: var(--columns) 18rem;
+  gap: 1rem;
+
+  img {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}

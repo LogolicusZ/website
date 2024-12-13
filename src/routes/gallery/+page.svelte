@@ -19,6 +19,8 @@
 
 <svelte:head>
   <title>Gallery | LogolicusZ's Space</title>
+  <meta name="title" content="LogolicusZ's Gallery" />
+  <meta name="description" content="Hey come checkout Pictures" />
 </svelte:head>
 
 <div class="flex flex-col items-center gap-16">

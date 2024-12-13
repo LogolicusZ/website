@@ -54,7 +54,9 @@
 </script>
 
 <svelte:head>
-  <title>LogolicusZ's Space</title>
+  <title>LogolicusZ's Landing Zone</title>
+  <meta name="title" content="LogolicusZ's Landing Zone" />
+  <meta name="description" content="Hey come checkout my stuff!" />
 </svelte:head>
 
 <div class="mb-32 flex h-dvh items-center justify-center">

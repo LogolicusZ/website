@@ -4,10 +4,9 @@ import sveltePreprocess from 'svelte-preprocess';
 
 export default defineConfig({
 	plugins: [
-		sveltekit(),
 		sveltekit({
 			preprocess: [sveltePreprocess({ typescript: true })]
-		})
+		}),
 	],
 	css: {
 		preprocessorOptions: {

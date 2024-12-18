@@ -1,18 +1,21 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
-import sveltePreprocess from 'svelte-preprocess';
+import { sveltekit } from "@sveltejs/kit/vite";
+import { defineConfig, searchForWorkspaceRoot } from "vite";
 
 export default defineConfig({
-	plugins: [
-		sveltekit({
-			preprocess: [sveltePreprocess({ typescript: true })]
-		}),
-	],
-	css: {
-		preprocessorOptions: {
-			scss: {
-				api: 'modern'
-			}
-		}
-	}
+  server: {
+    fs: {
+      allow: [searchForWorkspaceRoot(process.cwd())],
+    },
+  },
+
+  plugins: [sveltekit()],
+
+  css: {
+    preprocessorOptions: {
+      postcss: true,
+      scss: {
+        api: "modern",
+      },
+    },
+  },
 });

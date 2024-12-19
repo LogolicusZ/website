@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: "22"
       - name: Install pnpm
-        run: yarn install -g pnpm
+        run: yarn global add pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Build project

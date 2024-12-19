@@ -36,6 +36,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "22"
+      - name: Install pnpm
+        run: yarn install -g pnpm
       - name: Install dependencies
         run: pnpm install
       - name: Build project

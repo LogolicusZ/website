@@ -14,6 +14,10 @@
       image: "/assets/img/gallery/pic05.avif",
     },
     {
+      title: "<madrid-sky>",
+      image: "/assets/img/gallery/pic33.avif",
+    },
+    {
       title: "<orange-stairs>",
       image: "/assets/img/gallery/pic07.avif",
     },
@@ -28,6 +32,18 @@
     {
       title: "<car-peak>",
       image: "/assets/img/gallery/pic10.avif",
+    },
+    {
+      title: "<sbl-noodle-combo-green>",
+      image: "/assets/img/gallery/pic39.avif",
+    },
+    {
+      title: "<Juna-back>",
+      image: "/assets/img/gallery/pic38.avif",
+    },
+    {
+      title: "<keeb-randomshit>",
+      image: "/assets/img/gallery/pic46.avif",
     },
   ];
 

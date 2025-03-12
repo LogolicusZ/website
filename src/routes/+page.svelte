@@ -80,7 +80,7 @@
     <span class="text-4xl">Hi there, I'm</span>
     <span
       id="logolicuszHeader"
-      class="tracking-1 text-[12rem] font-medium italic transition-all duration-500 ease-in-out">
+      class="tracking-1 text-[4rem] font-medium italic transition-all duration-500 ease-in-out md:text-[8rem] lg:text-[12rem]">
       LogolicusZ
     </span>
     <a href="#pictures">
@@ -97,7 +97,7 @@
 
 <div id="about" class="mb-32 flex h-dvh flex-col items-center justify-center gap-16">
   <h2 class="text-8xl font-semibold">About me</h2>
-  <div class="flex justify-center gap-12">
+  <div class="flex flex-col justify-center gap-12 lg:flex-row">
     <img
       class="h-[36rem] w-[36rem]"
       src="/assets/img/aboutme.jpg"

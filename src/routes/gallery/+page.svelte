@@ -24,7 +24,7 @@
 </svelte:head>
 
 <div class="flex flex-col items-center gap-16">
-  <h1 class="text-8xl font-semibold">Gallery</h1>
+  <h1 class="text-8xl font-medium">Gallery</h1>
   <div class="image-container">
     {#each Object.entries(images) as [path]}
       {@const filename = path.split("/").pop()}

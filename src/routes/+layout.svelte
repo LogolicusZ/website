@@ -14,7 +14,7 @@
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:image" content="/assets/img/banner.png" />
 
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=supreme@1,2&display=swap" rel="stylesheet" />
 </svelte:head>
 
 <div class="flex h-dvh flex-col">

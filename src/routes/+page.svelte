@@ -8,28 +8,49 @@
   import IconArrowRight from "svelte-material-icons/ArrowRight.svelte";
 
   // carousel gallery items
-  const slides: CarouselItems[] = [
-    {
-      title: "<bird-flowers>",
-      image: "/assets/img/gallery/pic05.avif",
-    },
-    {
-      title: "<madrid-sky>",
-      image: "/assets/img/gallery/pic33.avif",
-    },
-    {
-      title: "<orange-stairs>",
-      image: "/assets/img/gallery/pic07.avif",
-    },
-    {
-      title: "<windows-basketball1>",
-      image: "/assets/img/gallery/pic03.avif",
-    },
-    {
-      title: "<car-peak>",
-      image: "/assets/img/gallery/pic10.avif",
-    },
-  ];
+const slides: CarouselItems[] = [
+  {
+    title: "<bird-flowers>",
+    image: "/assets/img/gallery/file_5.avif",
+  },
+  {
+    title: "<madrid-sky>",
+    image: "/assets/img/gallery/file_33.avif",
+  },
+  {
+    title: "<orange-stairs>",
+    image: "/assets/img/gallery/file_7.avif",
+  },
+  {
+    title: "<windows-basketball1>",
+    image: "/assets/img/gallery/file_3.avif",
+  },
+  {
+    title: "<car-peak>",
+    image: "/assets/img/gallery/file_10.avif",
+  },
+  {
+    title: "<neon-sign>",
+    image: "/assets/img/gallery/file_53.avif",
+  },
+  {
+    title: "<fence-glow>",
+    image: "/assets/img/gallery/file_90.avif",
+  },
+  {
+    title: "<green-hill-train>",
+    image: "/assets/img/gallery/file_18.avif",
+  },
+  {
+    title: "<pigeons-flight>",
+    image: "/assets/img/gallery/file_46.avif",
+  },
+  {
+    title: "<lights-shadow>",
+    image: "/assets/img/gallery/file_72.avif",
+  }
+];
+
 
   // carousel gallery options
   const slideOptions: CarouselOptions = {

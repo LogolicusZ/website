@@ -23,10 +23,11 @@
 
 <div id="navbar" class="fixed z-50 flex w-full flex-row items-center bg-base-100/60 px-8 py-4 backdrop-blur-md">
   <a class="logo-link h-[70px] w-[100px] overflow-hidden" aria-label="Home" href="/">
-    <div class="hello">
-      <HelloText />
+    <div class="hello h-[70px] flex items-center justify-center">
+      <!-- <HelloText /> -->
+      <span class="text-4xl"> Heyo! </span>
     </div>
-    <div class="logo ml-auto mr-auto w-1.75 flex justify-center items-center invert light:invert-0">
+    <div class="logo ml-auto mr-auto w-1.75 flex justify-center items-center  light:invert">
       <Logo />
     </div>
   </a>

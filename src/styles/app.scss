@@ -4,9 +4,17 @@
 
 // font family
 body {
-  font-family: 'Supreme', sans-serif;
+  font-family: 'comico', sans-serif;
+  
 }
 
+// Fonts
+@font-face {
+  font-family: 'comico';
+  src: url('/fonts/Comico-Regular.woff2');
+  font-style: normal;
+  font-weight: normal;
+}
 // image borders
 img,
 .splide-link {

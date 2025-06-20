@@ -64,7 +64,7 @@
     <span class="text-4xl">Hi there, I'm</span>
     <span
       id="logolicuszHeader"
-      class="tracking-1 text-[4rem] font-medium italic transition-all duration-500 ease-in-out md:text-[8rem] lg:text-[12rem]">
+      class="tracking-1 text-[4rem] f transition-all duration-500 ease-in-out md:text-[6rem] lg:text-[10rem]">
       LogolicusZ
     </span>
     <a href="#pictures">
@@ -74,7 +74,7 @@
 </div>
 
 <div id="pictures" class="mb-32 flex h-dvh flex-col items-center justify-center gap-8">
-  <h2 class="mb-8 text-8xl font-medium">Pictures</h2>
+  <h2 class="mb-8 text-7xl font-medium">Pictures</h2>
   <Carousel options={slideOptions} {slides} />
   <a class="btn btn-primary btn-lg" href="/gallery"><IconArrowRight size="1.25rem" /> See more</a>
 </div>
@@ -86,7 +86,7 @@
       class="h-[36rem] w-[auto]"
       src="/assets/img/aboutme.PNG"
       alt="I'm on a grassy field holding a camera, with trees in the background." />
-    <ul class="flex flex-col justify-center gap-8 text-4xl font-extralight">
+    <ul class="flex flex-col justify-center gap-8 text-2.5xl font-extralight">
       <li>
         <span class="mr-2 select-none">🇨🇭</span>
         Based In Switzerland

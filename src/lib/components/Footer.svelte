@@ -6,26 +6,34 @@
   import "$styles/components/footer.scss";
 </script>
 
-<div class="z-50 mt-auto flex w-full items-center rounded-t-xl px-8 py-3">
-  <span class="text-xl">&copy; LogolicusZ 2024</span>
-  <div class="links ml-auto flex gap-2">
-    <a
-      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
-      href="https://discord.com/invite/DC6RCWmgNd">
-      <IconDiscord />
-    </a>
-    <a
-      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
-      href="https://instagram.com/logolicusz">
-      <IconInstagram />
-    </a>
-    <a
-      class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
-      href="https://github.com/LogolicusZ">
-      <IconGithub />
-    </a>
-    <a class="btn btn-square btn-primary btn-md" href="#top">
-      <IconArrowUp size="1.5rem" />
-    </a>
+<footer class="z-50 mt-auto w-full rounded-t-xl bg-transparent px-4 py-3">
+  <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+    <span class="text-center text-base sm:text-xl">&copy; LogolicusZ 2024</span>
+    <div class="flex flex-wrap justify-center gap-2">
+      <a
+        class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+        href="https://discord.com/invite/DC6RCWmgNd"
+        aria-label="Discord">
+        <IconDiscord />
+      </a>
+      <a
+        class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+        href="https://instagram.com/logolicusz"
+        aria-label="Instagram">
+        <IconInstagram />
+      </a>
+      <a
+        class="btn btn-square btn-md border-none bg-neutral-800 text-white hover:bg-neutral-700"
+        href="https://github.com/LogolicusZ"
+        aria-label="GitHub">
+        <IconGithub />
+      </a>
+      <a
+        class="btn btn-square btn-primary btn-md"
+        href="#top"
+        aria-label="Back to top">
+        <IconArrowUp size="1.5rem" />
+      </a>
+    </div>
   </div>
-</div>
+</footer>

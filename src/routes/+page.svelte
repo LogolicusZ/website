@@ -11,43 +11,43 @@
 const slides: CarouselItems[] = [
   {
     title: "<bird-flowers>",
-    image: "/assets/img/gallery/file_5.avif",
+    image: "/assets/img/gallery/img_78.avif",
   },
   {
     title: "<madrid-sky>",
-    image: "/assets/img/gallery/file_33.avif",
+    image: "/assets/img/gallery/img_57.avif",
   },
   {
     title: "<orange-stairs>",
-    image: "/assets/img/gallery/file_7.avif",
+    image: "/assets/img/gallery/img_19.avif",
   },
   {
     title: "<windows-basketball1>",
-    image: "/assets/img/gallery/file_3.avif",
+    image: "/assets/img/gallery/img_49.avif",
   },
   {
     title: "<car-peak>",
-    image: "/assets/img/gallery/file_10.avif",
+    image: "/assets/img/gallery/img_60.avif",
   },
   {
     title: "<neon-sign>",
-    image: "/assets/img/gallery/file_53.avif",
+    image: "/assets/img/gallery/img_89.avif",
   },
   {
     title: "<fence-glow>",
-    image: "/assets/img/gallery/file_90.avif",
+    image: "/assets/img/gallery/img_43.avif",
   },
   {
     title: "<green-hill-train>",
-    image: "/assets/img/gallery/file_18.avif",
+    image: "/assets/img/gallery/img_9.avif",
   },
   {
     title: "<pigeons-flight>",
-    image: "/assets/img/gallery/file_46.avif",
+    image: "/assets/img/gallery/img_38.avif",
   },
   {
     title: "<lights-shadow>",
-    image: "/assets/img/gallery/file_72.avif",
+    image: "/assets/img/gallery/img_56.avif",
   }
 ];
 

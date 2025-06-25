@@ -59,8 +59,9 @@ const slideOptions: CarouselOptions = {
   perPage: 3,
   autoplay: true,
   autoplayInterval: 4500,
-  gap: "1rem",
+  gap: "0.5rem",
   width: "100%", // Use relative units for responsiveness
+  height: "auto",
   padding: "2%",
   updateOnMove: true,
   breakpoints: {

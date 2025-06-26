@@ -10,9 +10,9 @@
 
 <svelte:head>
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/assets/img/banner.png" />
+  <meta property="og:image" content="/assets/img/banner.svg" />
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="/assets/img/banner.png" />
+  <meta property="twitter:image" content="/assets/img/banner.svg" />
 
   <link href="https://api.fontshare.com/v2/css?f[]=supreme@1,2&display=swap" rel="stylesheet" />
 </svelte:head>

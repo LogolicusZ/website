@@ -19,7 +19,7 @@ const slides: CarouselItems[] = [
   },
   {
     title: "<orange-stairs>",
-    image: "/assets/img/gallery/img_19.avif",
+    image: "/assets/img/gallery/img_18.avif",
   },
   {
     title: "<windows-basketball1>",
@@ -27,7 +27,7 @@ const slides: CarouselItems[] = [
   },
   {
     title: "<car-peak>",
-    image: "/assets/img/gallery/img_60.avif",
+    image: "/assets/img/gallery/img_46.avif",
   },
   {
     title: "<neon-sign>",
@@ -74,7 +74,7 @@ const slideOptions: CarouselOptions = {
     768: {
       perPage: 1,
       padding: "5%",
-      height:"9%"
+      height:"10%",
     },
   },
 };

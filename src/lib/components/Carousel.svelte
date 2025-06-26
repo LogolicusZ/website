@@ -11,7 +11,7 @@
     focus: "center",
     perPage: 3,
     autoplay: true,
-    autoplayInterval: 3000,
+    autoplayInterval: 4500,
     gap: "1rem",
     width: "100rem",
     padding: "2%",

@@ -30,7 +30,7 @@
 </script>
 
 <div class="flex flex-col items-center gap-16">
-  <h1 class="text-8xl font-medium">Gallery</h1>
+  <h1 class="text-5xl sm:text-5xl md:text-6xl lg:text-8xl font-medium text-center">Gallery</h1>
   <div id="gallery" class="image-container">
     {#each data.galleryImages as image}
       <a

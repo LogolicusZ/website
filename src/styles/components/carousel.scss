@@ -64,3 +64,9 @@
     @apply h-[0.75rem] w-[0.75rem] border-[0.2rem] border-solid border-base-content bg-base-300;
   }
 }
+
+@media (max-width: 768px) {
+  .splide__arrow {
+    display: none !important;
+  }
+}

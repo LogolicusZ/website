@@ -63,16 +63,16 @@
     <li><a class="hover:link hover:link-primary" href="/#about">About</a></li>
     <li><a class="hover:link hover:link-primary" href="/gallery">Gallery</a></li>
     <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Blog</a></li>
-     <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com" on:click={toggleMenu}>Krchv</a></li>
+     <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Krchv</a></li>
   </ul>
 
   <!-- Mobile nav -->
   {#if $menuOpen}
     <ul class="w-full mt-4 flex flex-col items-start gap-3 text-lg font-light md:hidden">
-      <li><a class="hover:link hover:link-primary" href="/#about" on:click={toggleMenu}>About</a></li>
-      <li><a class="hover:link hover:link-primary" href="/gallery" on:click={toggleMenu}>Gallery</a></li>
-      <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com" on:click={toggleMenu}>Blog</a></li>
-      <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com" on:click={toggleMenu}>Krchv</a></li>
+      <li><a class="hover:link hover:link-primary" href="/#about">About</a></li>
+      <li><a class="hover:link hover:link-primary" href="/gallery">Gallery</a></li>
+      <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Blog</a></li>
+      <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Krchv</a></li>
     </ul>
   {/if}
 </div>

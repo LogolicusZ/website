@@ -63,7 +63,7 @@
     <li><a class="hover:link hover:link-primary" href="/#about">About</a></li>
     <li><a class="hover:link hover:link-primary" href="/gallery">Gallery</a></li>
     <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Blog</a></li>
-     <li><a class="hover:link hover:link-primary" href="https://blog.logolicusz.com">Krchv</a></li>
+     <li><a class="hover:link hover:link-primary" href="https://krchv.logolicusz.com">Krchv</a></li>
   </ul>
 
   <!-- Mobile nav -->
